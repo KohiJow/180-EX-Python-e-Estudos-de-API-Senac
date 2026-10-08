@@ -52,6 +52,11 @@ python -m pytest test_calculator_pytest.py test_calculadorainterfaceFernando.py
 python -m unittest test_calculator_unitte_native.py
 ```
 
+Os dois testes de interface (`test_calculadorainterfaceFernando.py` e
+`test_gerenciador_anotacoesprf.py`) importam `tkinter`. No Windows e no macOS ele
+já vem com o Python; em Linux costuma ser um pacote separado (`python3-tk`). Sem
+ele, esses dois arquivos falham na coleta e os outros continuam rodando.
+
 O que ficou de lição aqui: separar lógica de interface é o que torna o teste
 possível. A `Calculator` do `calculadoraFernando.py` existe fora do tkinter de
 propósito.

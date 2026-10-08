@@ -19,7 +19,8 @@ class TestCalculatorLogic(unittest.TestCase):
     def test_division_by_zero(self):
         self.assertEqual(self.calculator.evaluate_expression('10 / 0'), 'Erro')
     
-    def test_division_by_zero(self):
+    #tinha o mesmo nome do teste acima e apagava ele: so a divisao por zero rodava
+    def test_invalid_expression(self):
         self.assertEqual(self.calculator.evaluate_expression('invalid'), 'Erro')    
 #Executa os testes, terminal (diretamente)        
 if __name__ == '__main__':
