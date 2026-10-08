@@ -3,7 +3,7 @@ Faca um programa que mostre a tabuada de varios numeros, um de cada vez para cad
 O programa será interrompido quando o número solicitado for negativo
 """
 num = int(input("Insira um numero para a tabuada, ou insira um numero negativo para encerrarmos: ")) 
-verificador = num.isinteger()
+verificador = isinstance(num, int)
 count = 0
 
 while num > 0:

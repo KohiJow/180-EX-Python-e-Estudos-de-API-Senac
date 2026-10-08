@@ -6,8 +6,8 @@
 
 Name = str(input('Insert your name: ')) #Ask's whats is your name to proceed
 NoSpace = Name.replace(' ', '') #Replace spaces with nothing :D
-Name.D = Name.split() #Divide the string, kit kat?
+NameD = Name.split() #Divide the string, kit kat?
 print(Name.upper()) #Scream your name, rude.
 print(Name.lower()) #whispers in your ear, naughty.
 print(len(NoSpace)) #tell how many letters your name has without counting your existential void
-print(len(Name.D[0])) #divide the string, Portgas D.Ace
+print(len(NameD[0])) #divide the string, Portgas D.Ace

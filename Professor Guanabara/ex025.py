@@ -9,4 +9,4 @@
 ###Correção
 
 nome = str(input('Whats your name? ')).strip()
-print(f'Your name have silva? {'SILVA' in nome.upper()}')
+print(f'Your name have silva? {"SILVA" in nome.upper()}')

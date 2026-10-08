@@ -7,4 +7,4 @@ agenda = {
 }
 
 # Acessar o número de telefone do João
-print(agenda['João'])
+print(agenda['Joao'])

@@ -5,7 +5,7 @@ funcionarios = []
 
 def adicionar_funcionario(nome, cargo, salario):
     funcionario = (nome, cargo, salario)
-    funcionarios.append(funcionarios)
+    funcionarios.append(funcionario)
     
 def exibir_funcionarios():
     for funcionario in funcionarios:

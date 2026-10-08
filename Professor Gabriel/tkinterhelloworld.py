@@ -16,7 +16,7 @@ def greet():
     label.config(text='Olá, Mundo!')
 
 #Tela onde todos os componentes serão colocados    
-app = tk.TK()
+app = tk.Tk()
 app.title('Hello World App')
 
 #Criando o Widget label, uma area onde exibe a informação
@@ -24,7 +24,7 @@ label = tk.Label(app, text = '')
 label.pack()
 
 #Botão que exibe o clique aqui
-button = tk.Button(app, text= 'Clique aqui', comand=greet)
+button = tk.Button(app, text= 'Clique aqui', command=greet)
 button.pack()
 
 #Linha que deixa o código/tela aberta em loop
