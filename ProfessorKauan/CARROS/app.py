@@ -14,13 +14,13 @@ app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///carros.db"
 
 # Desativa o rastreamento de modificações no banco de dados para evitar um overhead desnecessário.
-app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False  # ✅ Correção
+app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False  # Correção
 
 # Inicializa o banco de dados com a aplicação Flask, permitindo que o Flask interaja com o banco.
 db.init_app(app)
 
 # Registra o Blueprint de rotas de carros no aplicativo Flask.
-app.register_blueprint(carro_routes)  # ✅ Correção
+app.register_blueprint(carro_routes)  # Correção
 
 # Bloco principal do aplicativo Flask.
 if __name__ == "__main__":

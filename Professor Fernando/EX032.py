@@ -27,5 +27,4 @@ else:
     print(' Codigo NAO confere com a tabela Morse, referente a mensagem: {}' .format(tabela_morse[1] ) )
     print(l0)
 
-#Autor: Prof. Fernando Henrique Santorsula
-#E-mail: fernando.hsantorsula@sp.senac.br
+#Autor: material de aula do professor Fernando
