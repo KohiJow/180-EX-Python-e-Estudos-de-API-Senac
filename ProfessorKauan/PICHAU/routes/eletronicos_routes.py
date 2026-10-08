@@ -10,7 +10,7 @@ def eletronico_get():
 
 
 @eletronicos_routes.route('/Eletronico/<int:id>', methods=['GET'])
-def get_all_eletronicos_com_id(id):
+def eletronico_get_por_id(id):
     return get_all_eletronicos_com_id(id)
 
 

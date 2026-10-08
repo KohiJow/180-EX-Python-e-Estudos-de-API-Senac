@@ -11,7 +11,7 @@ def get_all_eletronicos():
             'dados': [eletronico.json() for eletronico in eletronicos]
         }, ensure_ascii=False, sort_keys=False)
     )
-    response.headers['Content-Type'] = 'apllication/json'
+    response.headers['Content-Type'] = 'application/json'
     return response
 
 def get_all_eletronicos_com_id(id):
