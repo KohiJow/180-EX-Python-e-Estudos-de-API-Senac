@@ -35,15 +35,16 @@ python rodar.py guanabara 115a
 python rodar.py gabriel --lista      # mostra o que existe na pasta
 ```
 
-O exercício roda com a pasta dele como diretório atual, então arquivo que ele
-abre pelo nome (`ex021.mp3`, `arquivo.txt`) é encontrado. O código de saída do
-exercício é repassado. Chamar direto continua funcionando:
+O exercício roda com a pasta dele como diretório atual, então arquivo aberto
+por nome relativo (como o `arquivo.txt` do `EX040`, que não vem no repositório)
+é procurado ali. O código de saída do exercício é repassado. Chamar direto
+continua funcionando:
 
 ```bash
 python3 "Professor Guanabara/ex045.py"
 ```
 
-Três exercícios usam biblioteca que fica fora do `requirements.txt`, por serem
+Alguns arquivos usam biblioteca que fica fora do `requirements.txt`, por serem
 de janela ou áudio: `pygame` (`ex021`), `PyQt5` (`PyQt.py`, `helloworld.py`,
 `gerenciadordeanotacoes_pyqt.py`) e `selenium` (`selene.py`). Os de `tkinter`
 precisam do pacote `python3-tk` em Linux; no Windows e no macOS ele já vem.
