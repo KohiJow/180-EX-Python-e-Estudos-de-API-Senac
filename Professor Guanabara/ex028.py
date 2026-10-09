@@ -15,7 +15,7 @@ if user == computador:
 else:
     print(f'Ha! Errou! eu pensei no {computador}')
 
-#Correção do que eu queria fazer com chatgpt, basicamente eu queria muito fazer um verificador sem try
+#Correção do que eu queria fazer, basicamente eu queria muito fazer um verificador sem try
 #pois eu sei que em str eu aprendi sobre identificadores e tipos, porém não tava conseguindo pensar
 #na lógica pra fazer isso, e acabou que dava, com bastante if e else mas deu:
 """
