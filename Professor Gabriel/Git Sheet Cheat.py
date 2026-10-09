@@ -2,8 +2,8 @@
 #É a configuração inicial para personalizar o uso do Git, como seu nome e e-mail, para que 
 #todos os commits possam ser atribuídos corretamente.
 '''
-git config --global user.name "Seu Nome"
-git config --global user.email "seu.email@exemplo.com"
+git config --global user.name "João Mateus Firmino Rodrigues"
+git config --global user.email "contatojmfr@gmail.com"
 git config --global color.ui auto  # Ativa cores no terminal para facilitar leitura
 '''
 
