@@ -40,7 +40,8 @@ def chave(nome):
 
 
 def listar_exercicios(pasta):
-    return sorted(arquivo for arquivo in os.listdir(pasta) if arquivo.endswith('.py'))
+    # sem distinguir maiusculas: ex001..ex005 e EX006..EX065 ficam juntos na listagem
+    return sorted((arquivo for arquivo in os.listdir(pasta) if arquivo.endswith('.py')), key=str.lower)
 
 
 def encontrar_exercicio(pedido, arquivos):
