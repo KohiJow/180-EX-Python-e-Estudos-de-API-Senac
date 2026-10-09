@@ -1,0 +1,12 @@
+# API Flask (ProfessorKauan/PICHAU) e a suite de testes
+Flask>=3.0,<4
+Flask-SQLAlchemy>=3.1,<4
+pytest>=8,<9
+
+# consumo de API (Professor Gabriel/request.py)
+requests>=2.31,<3
+
+# Nao entram aqui, por serem de exercicios isolados com janela ou audio:
+# pygame (ex021), PyQt5 (PyQt.py, helloworld.py, gerenciadordeanotacoes_pyqt.py),
+# selenium (selene.py). tkinter vem com o Python no Windows e no macOS;
+# em Linux e o pacote python3-tk (Debian/Ubuntu) ou python3-tkinter (Fedora/RHEL).
